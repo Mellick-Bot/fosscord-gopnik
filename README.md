@@ -1,6 +1,6 @@
 # fosscord-gopnik
 
-This package guerilla-patches the [Discord.js](https://github.com/discordjs/discord.js) library in order to allow it to connect to [Fosscord](https://github.com/fosscord/fosscord-server) instances.
+This package guerilla-patches the [fosscord.js](https://github.com/discordjs/fosscord.js) library in order to allow it to connect to [Fosscord](https://github.com/fosscord/fosscord-server) instances.
 
 # Install
 ```
@@ -8,7 +8,7 @@ npm install fosscord-gopnik --save
 ```
 
 # Usage
-Exactly as you would the standard Discord.js package, but instead just import this one.
+Exactly as you would the standard fosscord.js package, but instead just import this one.
 ```ts
 import Fosscord from "fosscord-gopnik";
 const client = new Fosscord.Client({
@@ -34,7 +34,7 @@ client.login("token here");	//Token from instance
 ```
 
 # Instancing ( WIP )
-Allows connections to multiple Fosscord/Discord instances. Using mostly the same API as Discord.js Shards.
+Allows connections to multiple Fosscord/Discord instances. Using mostly the same API as fosscord.js Shards.
 
 ```ts
 /* entry point */
