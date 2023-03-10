@@ -1,4 +1,4 @@
-import Discord from "discord.js";
+import Discord from "fosscord.js";
 import Fosscord from "../index";
 
 class InstanceClientUtil {

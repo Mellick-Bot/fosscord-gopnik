@@ -1,4 +1,4 @@
-import Discord from 'discord.js';
+import Discord from 'fosscord.js';
 import InstanceClientUtil from "./Instances/InstanceClientUtil";
 
 interface patchFunction {
@@ -21,9 +21,9 @@ patch(Discord.Options, "createDefault", (result) => {
 		http: {
 			agent: {},
 			version: 9,
-			api: process.env.INSTANCE_API_ENDPOINT || 'https://dev.fosscord.com/api',
-			cdn: process.env.INSTANCE_CDN_ENDPOINT || 'https://cdn.fosscord.com',
-			invite: process.env.INSTANCE_INVITE_ENDPOINT || 'https://fosscord.com/invite',
+			api: process.env.INSTANCE_API_ENDPOINT || 'https://discord.com/api',
+			cdn: process.env.INSTANCE_CDN_ENDPOINT || 'https://cdn.discordapp.com',
+			invite: process.env.INSTANCE_INVITE_ENDPOINT || 'https://discord.gg',
 		},
 	});
 });

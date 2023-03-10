@@ -1,5 +1,5 @@
 import EventEmitter from "events";
-import Discord from "discord.js";
+import Discord from "fosscord.js";
 import Instance from "./Instance";
 
 //If http not provided, create standard(ish) endpoint urls from baseUrl

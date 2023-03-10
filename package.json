@@ -11,10 +11,14 @@
 	"author": "MaddyUnderStars & discord.js: Amish Shah <amish@shah.gg>",
 	"license": "ISC",
 	"dependencies": {
-		"discord.js": "^13.5.1"
+		"discord-backup": "git+https://github.com/Mellick-Bot/discord-backup",
+		"discord-tictactoe": "git+https://github.com/Mellick-Bot/discord-tictactoe",
+		"discord.js": "^13.13.1",
+		"fosscord.js": "git+https://github.com/Mellick-Bot/fosscord.js",
+		"fosscord.js-builders": "git+https://github.com/Mellick-Bot/fosscord.js-builders"
 	},
 	"devDependencies": {
-		"typescript": "^4.5.4"
+		"typescript": "^4.9.5"
 	},
 	"files": [
 		"build"

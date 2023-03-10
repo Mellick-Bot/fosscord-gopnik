@@ -16,9 +16,9 @@ const client = new Fosscord.Client({
 
 	// New default endpoints:
 	http: {
-		api: 'https://dev.fosscord.com/api',
-		cdn: 'https://cdn.fosscord.com',
-		invite: 'https://fosscord.com',
+		api: 'https://discord.com/api',
+		cdn: 'https://cdn.discordapp.com',
+		invite: 'https://discord.gg',
 	},
 });
 

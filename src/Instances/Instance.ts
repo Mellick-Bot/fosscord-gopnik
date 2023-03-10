@@ -1,7 +1,7 @@
 import EventEmitter from "events";
 import path from "path";
 import childProcess from "child_process";
-import Discord from "discord.js";
+import Discord from "fosscord.js";
 import InstanceManager, { InstanceOptions } from "./InstanceManager";
 
 class Instance extends EventEmitter {
